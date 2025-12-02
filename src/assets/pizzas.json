@@ -41,7 +41,7 @@
     },
     {
       "id": 4,
-      "imageUrl": "https://media.dodostatic.net/image/r:292x292/11EE7D67E9339CFB185921A343AD8FD.jpg",
+      "imageUrl": "https://raw.githubusercontent.com/vovgasparyan/react-pizza-v3-frontend/refs/heads/main/src/assets/pizzas/hawaii.jpg",
       "title": "Гавайская",
       "types": [0, 1],
       "sizes": [26, 30, 40],
@@ -51,7 +51,7 @@
     },
     {
       "id": 5,
-      "imageUrl": "https://media.dodostatic.net/image/r:292x292/11EE7D614EB101D8727573088FA2EFF.jpg",
+      "imageUrl": "https://raw.githubusercontent.com/vovgasparyan/react-pizza-v3-frontend/refs/heads/main/src/assets/pizzas/diablo.jpg",
       "title": "Диабло",
       "types": [0],
       "sizes": [30, 40],
@@ -61,7 +61,7 @@
     },
     {
       "id": 6,
-      "imageUrl": "https://media.dodostatic.net/image/r:292x292/11EED610A62D78598406363A9A8AD65.jpg",
+      "imageUrl": "https://raw.githubusercontent.com/vovgasparyan/react-pizza-v3-frontend/refs/heads/main/src/assets/pizzas/pepperoni.jpg",
       "title": "Пепперони",
       "types": [0, 1],
       "sizes": [26, 30, 40],
@@ -71,7 +71,7 @@
     },
     {
       "id": 7,
-      "imageUrl": "https://media.dodostatic.net/image/r:292x292/11EE76105EF6690B86FBDE6150B5B0C.jpg",
+      "imageUrl": "https://raw.githubusercontent.com/vovgasparyan/react-pizza-v3-frontend/refs/heads/main/src/assets/pizzas/margarita.jpg",
       "title": "Маргарита",
       "types": [0, 1],
       "sizes": [26, 30, 40],
@@ -81,7 +81,7 @@
     },
     {
       "id": 8,
-      "imageUrl": "https://media.dodostatic.net/image/r:292x292/11E7D611ADF5AAD898B8B651186E023.jpg",
+      "imageUrl": "https://raw.githubusercontent.com/vovgasparyan/react-pizza-v3-frontend/refs/heads/main/src/assets/pizzas/four-seasons.jpg",
       "title": "Четыре сезона",
       "types": [0, 1],
       "sizes": [26, 30, 40],
@@ -91,8 +91,8 @@
     },
     {
       "id": 9,
-      "imageUrl": "https://media.dodostatic.net/image/r:292x292/11E7D61546D8483A61A0BBAA7ADCC78.jpg",
-      "title": "Овощи и грибы 🌱",
+      "imageUrl": "https://raw.githubusercontent.com/vovgasparyan/react-pizza-v3-frontend/refs/heads/main/src/assets/pizzas/vegetables-mushroom.jpg",
+      "title": "Овощи и грибы",
       "types": [0, 1],
       "sizes": [26, 30, 40],
       "price": 285,
