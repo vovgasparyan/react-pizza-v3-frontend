@@ -5,6 +5,7 @@
 .categories {
   ul {
     display: flex;
+    flex-wrap: wrap;
 
     li {
       background-color: #f9f9f9;

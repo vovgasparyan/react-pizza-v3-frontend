@@ -1,9 +1,9 @@
 import React from "react";
 import axios from "axios";
 
-export function Categories() {
-
-  const [activeCategory, setActiveCategory] = React.useState(0);
+export function Categories({categoryObjectId, onClickChangeCategory}: any) {
+  console.log(categoryObjectId);
+  //const [activeCategory, setActiveCategory] = React.useState<string | null>(null);
   const [categories, setCategories] = React.useState<{_id: string; name: string }[]>([]);
   const [loading, setLoading] = React.useState(true);
 
@@ -20,11 +20,11 @@ export function Categories() {
     }
     fetchCategories();
   }, []);
-
-  const onClickCategory = (index: number) => {
-    setActiveCategory(index);
+/*
+  const onClickCategory = (objectId: string | null) => {
+    setActiveCategory(objectId);
   }
-
+*/
   if (loading) {
     return <div className="categories">Загрузка...</div>;
   }
@@ -32,9 +32,9 @@ export function Categories() {
   return (
     <div className="categories">
       <ul>
-        <li onClick={() => onClickCategory(0)} className={activeCategory === 0 ? "active" : ""}>Все</li>
-        {categories.map((item, index) =>
-          <li key={item._id} onClick={() => onClickCategory(index + 1)} className={activeCategory === index + 1 ? "active" : ""}>
+        <li onClick={() => onClickChangeCategory(null)} className={categoryObjectId === null ? "active" : ""}>Все</li>
+        {categories.map((item) =>
+          <li key={item._id} onClick={() => onClickChangeCategory(item._id)} className={categoryObjectId === item._id ? "active" : ""}>
             {item.name}
           </li>)}
       </ul>
